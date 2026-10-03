@@ -141,3 +141,19 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python & Environment Rules (Never Commit Secrets)
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+*.log
