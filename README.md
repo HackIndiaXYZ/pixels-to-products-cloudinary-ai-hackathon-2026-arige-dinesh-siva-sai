@@ -1,3 +1,93 @@
+# EventSnap — AI Event Photo Finder
+
+> **Find the moments you're in.**
+
+EventSnap is an AI-powered event photo discovery platform that helps attendees quickly find photos they appear in. Instead of manually searching through thousands of event photos, users can select an event and upload a selfie to discover their matching moments, including group photos.
+
+---
+
+## 🚀 Live Demo
+
+### 🌐 Live Application
+**https://eventsnap-taupe.vercel.app/**
+
+### 🎥 Demo Video
+**https://youtu.be/ZyJcdkEIcH4**
+
+### ⚙️ Backend API
+**https://eventsnap-n75y.onrender.com/**
+
+EventSnap is deployed with the frontend on **Vercel** and the backend on **Render**.
+
+> **For evaluation, please use the live application above. No localhost or local URLs are required.**
+
+---
+
+## 🎯 Hackathon
+
+**HackIndia — Pixels to Products: Cloudinary AI Hackathon 2026**
+
+### Track
+**PS-03 — Your Media-Savvy Startup**
+
+---
+
+## 🧩 Problem
+
+Event photographers can capture thousands of photos during weddings, sports events, college events, conferences, festivals, and other occasions.
+
+Finding the photos in which a particular person appears can be difficult and time-consuming.
+
+### Our Solution
+
+EventSnap allows attendees to:
+
+1. Select an event.
+2. Upload a selfie.
+3. Let the system detect and recognize their face.
+4. Search the selected event's indexed photos.
+5. View the matching photos, including group photos where they appear.
+
+---
+
+## 💡 How EventSnap Works
+
+```text
+Photographer
+     │
+     ▼
+Upload Event Photos
+     │
+     ▼
+   Cloudinary
+     │
+     ├── Media Management
+     ├── Transformations
+     ├── Optimization
+     └── Delivery
+     │
+     ▼
+Face Detection — YuNet
+     │
+     ▼
+Face Recognition — SFace
+     │
+     ▼
+Event Face Index
+     │
+     │
+     ▼
+Attendee Uploads Selfie
+     │
+     ▼
+Face Detection + Recognition
+     │
+     ▼
+Search Selected Event
+     │
+     ▼
+Matching Event Photos
+
 # EventSnap 📸
 
 > **HackIndia 2026 — Pixels to Products (Track PS-03: Cloudinary AI Hackathon)**  
