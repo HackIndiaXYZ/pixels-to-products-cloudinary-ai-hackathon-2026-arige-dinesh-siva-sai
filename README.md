@@ -14,8 +14,8 @@ EventSnap is an AI-powered event photo discovery platform that helps attendees q
 ### 🎥 Demo Video
 **https://youtu.be/ZyJcdkEIcH4**
 
-### ⚙️ Backend API
-**https://eventsnap-n75y.onrender.com/**
+### ⚙️ Backend Health Check
+https://eventsnap-n75y.onrender.com/api/health
 
 EventSnap is deployed with the frontend on **Vercel** and the backend on **Render**.
 
